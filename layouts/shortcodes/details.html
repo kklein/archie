@@ -1,0 +1,8 @@
+<details style="border: 1px solid #aaa; border-radius: 4px; padding: 0.5em 0.5em 0;">
+  <summary style="font-weight: bold; margin: -0.5em -0.5em 0; padding: 0.5em;">
+    {{ (.Get 0) | markdownify }}
+  </summary>
+  <div style="padding: 0.5em;">
+    {{ .Inner | markdownify }}
+  </div>
+</details>
