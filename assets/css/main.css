@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 /* Markdown */
-:root{
---maincolor: orange;
---bordercl:rebeccapurple;
---callouctcolor:dodgerblue;
---hovercolor:navy;
---darkMaincolor: #50fa7b;
-=======
-/* CSS Custom Properties */
 :root {
   /* Light theme colors */
-  --color-primary: #dc143c;
-  --color-primary-hover: #b91c3c;
+  --color-primary: orange;
+  --color-primary-hover: navy;
   --color-border: #663399;
   --color-callout: #1e90ff;
   --color-text: #232333;
@@ -22,19 +13,7 @@
   --color-background-pre: #ececec;
   --color-background-toc: #ececec;
   --color-background-draft: #f9f2f4;
-  
-  /* Dark theme colors */
-  --color-primary-dark: #50fa7b;
-  --color-primary-hover-dark: #3dd458;
-  --color-border-dark: #0066ff;
-  --color-text-dark: #ffffff;
-  --color-text-muted-dark: #dddddd;
-  --color-background-dark: #202124;
-  --color-background-code-dark: #3a3a3a;
-  --color-background-pre-dark: #272822;
-  --color-background-toc-dark: #272822;
-  --color-background-draft-dark: #0066ff;
-  
+
   /* Spacing and sizing */
   --content-max-width: 800px;
   --content-padding: 1ch;
@@ -42,7 +21,7 @@
   --font-size-base: 15px;
   --line-height-base: 1.6;
   --line-height-content: 1.5;
->>>>>>> 962c30a8474fd965a5cd7bdf04e2b694ea27dc04
+
 }
 /* Reset and base styles */
 *,
@@ -88,8 +67,6 @@ body {
 
 /* Typography */
 p {
-  /* TODO: Consider removing this font family */
-  font-family: 'Fira Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   line-height: var(--line-height-content, 1.5);
   /* Fallback for older browsers */
   margin-top: 0.5em;
@@ -102,7 +79,6 @@ p {
     margin-bottom: unset;
     margin-block: 0.5em;
   }
->>>>>>> 962c30a8474fd965a5cd7bdf04e2b694ea27dc04
 }
 
 hr {
@@ -431,13 +407,9 @@ footer {
 .soc {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   padding-right: 1rem;
   margin-right: 1rem;
   border-right: 2px solid;
-=======
-  /* Fallback for older browsers */
->>>>>>> 962c30a8474fd965a5cd7bdf04e2b694ea27dc04
   border-bottom: none;
   /* Modern logical properties */
   border-block-end: none;
